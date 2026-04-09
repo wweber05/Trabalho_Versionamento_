@@ -35,7 +35,8 @@ function App() {
           {count > 10 && <p>🔥 Contador passou de 10!</p>}
         </div>
       </section>
-
+      
+      <p>Data: {new Date().toLocaleDateString()}</p>
       <footer>
         <p>Patrick tem grande futuro como professor</p>
       </footer>

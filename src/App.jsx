@@ -19,7 +19,7 @@ function App() {
           <h1 id="title">Trabalho Bimestral Devops</h1>
           <p>Por favor, Patrick, não quebre a gente no próximo semestre...</p>
         </div>
-        
+
         <div className="card">
           <button
             className="counter"
@@ -27,7 +27,7 @@ function App() {
           >
             Contador está em {count}
           </button>
-          
+
           <button className="reset-btn" onClick={() => setCount(0)}>
             Reset
           </button>
@@ -35,6 +35,10 @@ function App() {
           {count > 10 && <p>🔥 Contador passou de 10!</p>}
         </div>
       </section>
+
+      <footer>
+        <p>Patrick tem grande futuro como professor</p>
+      </footer>
     </>
   );
 }

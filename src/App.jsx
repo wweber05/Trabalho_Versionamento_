@@ -31,6 +31,8 @@ function App() {
           <button className="reset-btn" onClick={() => setCount(0)}>
             Reset
           </button>
+
+          {count > 10 && <p>🔥 Contador passou de 10!</p>}
         </div>
       </section>
     </>

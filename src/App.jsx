@@ -16,7 +16,7 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Trabalho Bimestral Devops</h1>
+          <h1 id="title">Trabalho Bimestral Devops</h1>
           <p>
             Por favor, Patrick, não quebre a gente no próximo semestre...
           </p>
@@ -25,15 +25,9 @@ function App() {
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          Contador está em {count}
         </button>
-      </section>
-
-      
-
-      
-
-      
+      </section> 
     </>
   )
 }

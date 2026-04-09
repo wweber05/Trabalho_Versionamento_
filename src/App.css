@@ -192,3 +192,12 @@
   color: white;
   background: purple;
 }
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: green;
+  color: purple;
+}
